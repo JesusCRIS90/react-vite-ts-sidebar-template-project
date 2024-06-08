@@ -1,0 +1,35 @@
+nav {
+  /* width: 250px; */
+  min-width: 15vh;
+  height: 100vh;
+
+  padding-top: 3rem;
+
+  background-color: #363a45;
+
+  /* overflow-y: scroll; */
+  text-align: center;
+}
+nav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+nav li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-active {
+  color: grey;
+  transition: all 0.3s ease-out;
+}
